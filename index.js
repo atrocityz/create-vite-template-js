@@ -61,8 +61,8 @@ const run = async () => {
 
   console.log(cyan(`┃ ${bold('◉ Step 3 →')} Checking target directory...`))
   const repo = useAdvancedGit
-    ? 'atrocityz/create-vite-template-js-git'
-    : 'atrocityz/create-vite-template-js'
+    ? 'atrocityz/vite-template-js-git'
+    : 'atrocityz/vite-template-js-vanilla'
 
   if (existsSync(targetDir) && readdirSync(targetDir).length > 0) {
     const { action } = await prompts({
