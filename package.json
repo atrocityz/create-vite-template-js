@@ -1,0 +1,40 @@
+{
+  "name": "create-vite-template-js",
+  "version": "1.0.0",
+  "bin": {
+    "create-vite-template-js": "./index.js"
+  },
+  "description": "Быстрый старт верстки на Vite + HTML + JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrocityz/create-vite-template-js.git"
+  },
+  "keywords": [
+    "starter",
+    "frontend",
+    "html",
+    "scss",
+    "vite",
+    "create",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/atrocityz/create-vite-template-js/issues"
+  },
+  "homepage": "https://github.com/atrocityz/create-vite-template-js#readme",
+  "license": "MIT",
+  "author": "atro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "publish:next": "npm version prerelease --preid=next && npm publish --tag next",
+    "publish:latest": "npm version patch && npm publish"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "execa": "^9.6.0",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}
