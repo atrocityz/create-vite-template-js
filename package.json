@@ -1,6 +1,6 @@
 {
   "name": "create-vite-template-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": {
     "create-vite-template-js": "./index.js"
   },
