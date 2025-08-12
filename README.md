@@ -120,6 +120,15 @@ npx create-vite-template-js
 <load src="./partials/название-файла.html" />
 ```
 
+Так же сборщик Vite при помощи плагина [@spiriit/vite-plugin-svg-spritemap](https://github.com/SpiriitLabs/vite-plugin-svg-spritemap), позволяет легко и удобно работать с svg иконками из папки **icons** как с svg спрайтом.
+Для использования SVG спрайтов используйте:
+
+```html
+<svg>
+  <use xlink:href="./sprite#название-иконки"></use>
+</svg>
+```
+
 ## Работа с JavaScript
 
 Вся работа с JavaScript ведется в папке **scripts**. А для подключения js модулей используйте файл **index.js**, находящийся в этой же папке.
