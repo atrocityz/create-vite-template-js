@@ -4,8 +4,8 @@ _HTML, SCSS, PostCSS, JS, Prettier, Eslint, Commitlint, Husky, Vite_
 
 ## Версии сборки
 
-- [Vanilla](https://github.com/atrocityz/vite-template-js-vanilla)
-- [AdvancedGit](https://github.com/atrocityz/vite-template-js-git)
+- [Шаблон без углубленной работы с Git](https://github.com/atrocityz/vite-template-js-vanilla)
+- [Шаблон c углубленной работой с Git](https://github.com/atrocityz/vite-template-js-git)
 
 ## Начало работы
 
@@ -28,7 +28,7 @@ npx create-vite-template-js
 ```
 ├── .github/workflows                    # Папка с инструкциями для github actions по деплою проекта
 │ └── static.yml
-├── .husky/                              # Папка с инструкциями для husky перед созданием коммита
+├── .husky/                              # Папка с инструкциями для husky перед созданием коммита (только в версии с углубленной работой с Git)
 │ ├── commit-msg                         # Проверка сообщения коммита
 │ └── pre-commit                         # Выполнение проверки кода
 ├── public/                              # Папка для хранения файлов, которые попадут в build версию без изменений
@@ -64,7 +64,7 @@ npx create-vite-template-js
 ├── .prettierc                           # Конфигурация для prettier
 ├── .stylelintignore                     # Список игнорируемых папок и файлов для stylelint
 ├── .stylelintrc                         # Конфигурация для stylelint
-├── commitlint.config.js                 # Конфигурация для commitlint
+├── commitlint.config.js                 # Конфигурация для commitlint (только в версии с углубленной работой с Git)
 ├── eslint.config.js                     # Конфигурация для eslint
 ├── jsconfig.json                        # Конфигурация для js
 ├── package.json                         # Основной файл с конфигурацией пакетного менеджера
