@@ -63,16 +63,15 @@ npx create-vite-template-js
 │ ├── index.html                         # Основная страница сайта
 │ └── main.js                            # Подключение стилей и скриптов
 ├── .gitignore                           # Список игнорируемых файлов и папок для git
-├── .prettierc                           # Конфигурация для prettier
-├── .stylelintignore                     # Список игнорируемых папок и файлов для stylelint
-├── .stylelintrc                         # Конфигурация для stylelint
 ├── commitlint.config.js                 # Конфигурация для commitlint (только в версии с углубленной работой с Git)
 ├── eslint.config.js                     # Конфигурация для eslint
 ├── jsconfig.json                        # Конфигурация для js
 ├── package.json                         # Основной файл с конфигурацией пакетного менеджера
 ├── package-lock.json                    # Список определенных версий зависимостей для пакетного менеджера
 ├── postcss.config.js                    # Конфигурация postcss
+├── prettier.config.js                   # Конфигурация для prettier
 ├── README.md                            # Документация шаблона
+├── stylelint.config.js                  # Конфигурация для stylelint
 └── vite.config.js                       # Конфигурация для vite
 ```
 
